@@ -1,0 +1,54 @@
+.news-section{
+    display: block;
+    padding: 20px 0 80px;
+}
+.news-section .titie-section{
+    display: block;
+    margin-bottom: 50px;
+}
+.blog-item img{
+    width: 350px;
+    height: 262px;
+}
+.blog-item h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: $menu_color;
+    display: block;
+    line-height: 24px;
+    position: relative;
+    margin: 15px 0 ;
+    padding: 0;
+}
+.blog-item h3:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    display: block;
+    background: $menu_color;
+    bottom: -8px;
+}
+
+.blog-item p{
+    font-size: 14px;
+    font-weight: 40px;
+    line-height: 24px;
+    display: block;
+    margin-top: 10px;
+}
+
+.titie-section{
+    margin-bottom: 30px;
+    display: block;
+    position: relative;
+}
+.titie-section h1{
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    color: $menu_color;
+    font-weight: 700;
+}

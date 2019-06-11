@@ -1,7 +1,7 @@
-//--------- start footer Area -------------//
 .footer-area {
 	background-color: $section_bg;
-	padding: 140px 0px 100px;
+	padding: 40px 0px 40px;
+
 	@media (max-width: 991px) {
 		padding: 60px 0px;
 	}
@@ -13,7 +13,8 @@
 		p{
 			color: #666666;
 		}
-
+		display: block;
+		margin: 0 auto;
 		h4 {
 			color: $menu_color;
 			font-style: inherit;
@@ -27,18 +28,7 @@
 				margin-bottom: 15px;
 			}
 		}
-		ul {
-			li {
-				margin-bottom: 14px;
-				a {
-					color: #666666;
-					@include transform_time(0.5s);
-					&:hover{
-						color: $btn_bg;
-					}
-				}
-			}
-		}
+		
 		.form-wrap {
 			margin-top: 25px;
 		}
@@ -116,7 +106,9 @@
 		margin-top: 0px;
 	}
 }
-//--------- end footer Area -------------//
 .copyright_part {
-	background: $menu_color;
+	background: $header_color;
+}
+.ww {
+	padding: 20px;
 }

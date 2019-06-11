@@ -13,7 +13,7 @@ $text-color: #828bb2;
 $white: #fff;
 $offwhite: #f9f9ff;
 $black: #000;
-//    Mixins
+
 @mixin transition($args: all 0.3s ease 0s) {
     -webkit-transition: $args;
     -moz-transition: $args;
@@ -92,14 +92,22 @@ del {
 
 h1 {
     font-size: 36px;
+    color: $menu_color;
+    text-align: center;
+
 }
 
 h2 {
     font-size: 30px;
+    color: $header_color;
+    text-align: center;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 36px;
+    color: $menu_color;
+    font-family: $font_stack_3;
+    font-weight: 600;
 }
 
 h4 {

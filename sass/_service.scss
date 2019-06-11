@@ -1,13 +1,12 @@
-/**************** service_part css start ****************/
 .service_part {
    .single_service_text {
       h2 {
          font-size: 45px;
-         color: $menu_color;
+         color: $header_color;
          line-height: 1.222;
          margin-bottom: 20px;
-         margin-top: 50px;
-
+         margin-top: 10px;
+         text-align: center;
          @media #{$small_mobile} {
             margin-top: 0px;
             font-size: 30px;
@@ -28,11 +27,6 @@
             margin-top: 0px;
             font-size: 35px;
          }
-      }
-
-      p {
-         color: $h2_color;
-         line-height: 1.8;
       }
 
       .btn_2 {
@@ -141,7 +135,7 @@
 
       h4 {
          font-weight: 600;
-         color: #1d1d1d;
+         color: $header_color;
          font-size: 20px;
          margin-bottom: 23px;
          @media #{$small_mobile} {
@@ -189,4 +183,13 @@
    @media #{$tab_device} {}
 
    @media #{$medium_device} {}
+}
+
+.pic1 {
+   display: block;
+   margin:0 auto;
+}
+.pic1 p {
+   text-align: center;
+   color: $white_color;
 }

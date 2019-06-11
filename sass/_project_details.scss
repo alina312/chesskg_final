@@ -1,6 +1,5 @@
-/**************** project_datails css start ****************/
 .project_details{
-    padding-top: 130px;
+    padding-top: 50px;
     .project_details_content{
         padding: 40px 0px 0px;
         h3{
@@ -97,4 +96,13 @@
             }
         }
     }
+}
+
+.comment-form h4 {
+    color: $header_color;
+    text-align: center;
+}
+
+.but7 {
+    margin: 20px 310px;
 }

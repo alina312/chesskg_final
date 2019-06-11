@@ -1,8 +1,8 @@
-/**************** about css start ****************/
+
 .about_part{
     position: relative;
     z-index: 1;
-    padding: 0px 0px 140px;
+    padding: 70px 0px 140px;
     background-image: url(../img);
     background-repeat: no-repeat;
     background-position: left;
@@ -67,7 +67,7 @@
             line-height: 1.25;
             margin-bottom: 35px;
             font-size: 40px;
-            color: $h2_color;
+            color: $blue_color;
             @media #{$small_mobile}{
                 margin-bottom: 15px;
             }
@@ -120,3 +120,7 @@
 @media only screen and (max-width: 767px) {}
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+.padding_top {
+    padding-top: 100px;
+}

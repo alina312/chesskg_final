@@ -1,6 +1,6 @@
-/**************** learn_about css start ****************/
 .portfolio_part {
   margin-bottom: -20px;
+  padding-top: 130px;
 
   .card-columns {
     -webkit-column-count: 2;
@@ -45,6 +45,7 @@
       h2 {
         font-size: 45px;
         margin-bottom: 13px;
+        color: $header_color;
 
         @media #{$small_mobile} {
           font-size: 30px;

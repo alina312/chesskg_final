@@ -1,5 +1,5 @@
 .breadcrumb_bg{
-	@include background("../img/breadcrumb.png");
+	background-color: $white_color;
 }
 .breadcrumb{
 	position: relative;
@@ -11,24 +11,25 @@
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background-color: #000;
+			background-color: white;
 			content: "";
-			opacity: 0.6;
 			z-index: -1;
 	}
 	.breadcrumb_iner{
-			height: 400px;
+			height: 120px;
 			width: 100%;
 			display: table;
+			
+			border-bottom: solid $header_color 3px;
+
 			.breadcrumb_iner_item{
 					display: table-cell;
 					vertical-align: middle;
 					h2{
-							color: $white_color;
+							color: $header_color;
 							font-size: 50px;
 							font-weight: 600;
 							margin-bottom: 10px;
-							text-transform: capitalize;
 							@media #{$small_mobile}{
 								font-size: 35px;
 							}
@@ -41,14 +42,6 @@
 							@media #{$medium_device}{
 							
 							}
-					}
-					p{
-							font-size: 15px;
-							color: $white_color;
-					}
-					span{
-							margin: 0px 5px;
-							font-size: 12px;
 					}
 
 			}
